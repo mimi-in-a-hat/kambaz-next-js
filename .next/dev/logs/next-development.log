@@ -1,2 +1,70 @@
-[00:00:01.867] Server  LOG     ✓ Ready in 1464ms
-[00:00:04.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.295] Server  LOG     ✓ Ready in 1880ms
+[00:00:06.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.615] Browser ERROR   Use the `defaultValue` or `value` props instead of setting children on <textarea>.
+[00:00:09.615] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:01:07.030] Browser ERROR   ./app/labs/page.tsx:6:5
+Parsing ecmascript source code failed
+  4 |       <h1>Labs</h1>
+  5 |       <h2
+> 6 |     </div>
+    |     ^
+  7 | );}
+  8 |
+
+Expression expected
+[00:01:07.030] Browser ERROR   ./app/labs/page.tsx:6:6
+Parsing ecmascript source code failed
+  4 |       <h1>Labs</h1>
+  5 |       <h2
+> 6 |     </div>
+    |      ^^^^^
+  7 | );}
+  8 |
+
+Unterminated regexp literal
+[00:01:08.036] Browser ERROR   ./app/labs/page.tsx:7:3
+Parsing ecmascript source code failed
+  5 |       <h2> 
+  6 |     </div>
+> 7 | );}
+    |   ^
+  8 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:01:12.034] Browser ERROR   ./app/labs/page.tsx:9:3
+Parsing ecmascript source code failed
+   7 |       </h2>
+   8 |     </div>
+>  9 | );}
+     |   ^
+  10 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:01:19.032] Browser ERROR   ./app/labs/page.tsx:8:3
+Parsing ecmascript source code failed
+  6 |
+  7 |     </div>
+> 8 | );}
+    |   ^
+  9 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:01:20.043] Browser ERROR   ./app/labs/page.tsx:8:3
+Parsing ecmascript source code failed
+  6 |
+  7 |     </div>
+> 8 | );}
+    |   ^
+  9 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:01:23.909] Server  LOG     ✓ Compiled in 3ms
+[00:01:26.563] Server  LOG     ✓ Compiled in 9ms
+[00:01:32.558] Server  LOG     ✓ Compiled in 3ms
+[00:01:36.077] Server  LOG     ✓ Compiled in 16ms
+[00:01:38.461] Server  LOG     ✓ Compiled in 3ms
+[00:01:40.108] Server  LOG     ✓ Compiled in 5ms
+[00:02:15.988] Server  LOG     ✓ Compiled in 4ms
+[00:02:21.749] Server  LOG     ✓ Compiled in 3ms
+[00:02:25.050] Server  LOG     ✓ Compiled in 3ms
+[00:03:29.820] Browser ERROR   Use the `defaultValue` or `value` props instead of setting children on <textarea>.

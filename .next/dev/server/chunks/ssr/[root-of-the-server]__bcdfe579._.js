@@ -236,7 +236,7 @@ function Lab1() {
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    children: "Ender's Game"
+                                    children: "Enders Game"
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
                                     lineNumber: 54,
@@ -966,7 +966,6 @@ function Lab1() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            onclick: "alert('Life is Good!')",
                             id: "wd-all-good",
                             children: "Hello World!"
                         }, void 0, false, {
@@ -979,19 +978,19 @@ function Lab1() {
                             children: "Radio buttons"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 203,
+                            lineNumber: 202,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                             children: "Favorite movie genre:"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 208,
+                            lineNumber: 207,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 208,
+                            lineNumber: 207,
                             columnNumber: 45
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1000,7 +999,7 @@ function Lab1() {
                             id: "wd-radio-comedy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 210,
+                            lineNumber: 209,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1008,12 +1007,12 @@ function Lab1() {
                             children: "Comedy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 211,
+                            lineNumber: 210,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 211,
+                            lineNumber: 210,
                             columnNumber: 56
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1022,7 +1021,7 @@ function Lab1() {
                             id: "wd-radio-drama"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 213,
+                            lineNumber: 212,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1030,12 +1029,12 @@ function Lab1() {
                             children: "Drama"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 213,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 213,
                             columnNumber: 54
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1044,7 +1043,7 @@ function Lab1() {
                             id: "wd-radio-scifi"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 215,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1052,12 +1051,12 @@ function Lab1() {
                             children: "Science Fiction"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 217,
+                            lineNumber: 216,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 217,
+                            lineNumber: 216,
                             columnNumber: 64
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1066,7 +1065,7 @@ function Lab1() {
                             id: "wd-radio-fantasy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 219,
+                            lineNumber: 218,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1074,7 +1073,7 @@ function Lab1() {
                             children: "Fantasy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 220,
+                            lineNumber: 219,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -1082,19 +1081,19 @@ function Lab1() {
                             children: "Checkboxes"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 225,
+                            lineNumber: 224,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                             children: "Favorite movie genre:"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 226,
+                            lineNumber: 225,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 226,
+                            lineNumber: 225,
                             columnNumber: 45
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1103,7 +1102,7 @@ function Lab1() {
                             id: "wd-chkbox-comedy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 228,
+                            lineNumber: 227,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1111,12 +1110,12 @@ function Lab1() {
                             children: "Comedy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 228,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 229,
+                            lineNumber: 228,
                             columnNumber: 57
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1125,7 +1124,7 @@ function Lab1() {
                             id: "wd-chkbox-drama"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 231,
+                            lineNumber: 230,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1133,12 +1132,12 @@ function Lab1() {
                             children: "Drama"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 232,
+                            lineNumber: 231,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 232,
+                            lineNumber: 231,
                             columnNumber: 55
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1147,7 +1146,7 @@ function Lab1() {
                             id: "wd-chkbox-scifi"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 234,
+                            lineNumber: 233,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1155,12 +1154,12 @@ function Lab1() {
                             children: "Science Fiction"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 235,
+                            lineNumber: 234,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 235,
+                            lineNumber: 234,
                             columnNumber: 65
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1169,7 +1168,7 @@ function Lab1() {
                             id: "wd-chkbox-fantasy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 237,
+                            lineNumber: 236,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1177,7 +1176,7 @@ function Lab1() {
                             children: "Fantasy"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 238,
+                            lineNumber: 237,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1185,14 +1184,14 @@ function Lab1() {
                             children: "Dropdowns"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 242,
+                            lineNumber: 241,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                             children: "Select one"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 244,
+                            lineNumber: 243,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1200,12 +1199,12 @@ function Lab1() {
                             children: " Favorite movie genre: "
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 245,
+                            lineNumber: 244,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 245,
+                            lineNumber: 244,
                             columnNumber: 78
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1216,7 +1215,7 @@ function Lab1() {
                                     children: "Comedy"
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 247,
+                                    lineNumber: 246,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1224,7 +1223,7 @@ function Lab1() {
                                     children: "Drama"
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 248,
+                                    lineNumber: 247,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1233,7 +1232,7 @@ function Lab1() {
                                     children: "Science Fiction"
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 249,
+                                    lineNumber: 248,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1241,20 +1240,20 @@ function Lab1() {
                                     children: "Fantasy"
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 250,
                                     columnNumber: 9
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 246,
+                            lineNumber: 245,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                             children: "Select many"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 254,
+                            lineNumber: 253,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1262,12 +1261,12 @@ function Lab1() {
                             children: " Favorite movie genres: "
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 255,
+                            lineNumber: 254,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 255,
+                            lineNumber: 254,
                             columnNumber: 80
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1280,7 +1279,7 @@ function Lab1() {
                                     children: " Comedy          "
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 257,
+                                    lineNumber: 256,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1288,7 +1287,7 @@ function Lab1() {
                                     children: "           Drama           "
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 258,
+                                    lineNumber: 257,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1297,7 +1296,7 @@ function Lab1() {
                                     children: " Science Fiction "
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 259,
+                                    lineNumber: 258,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1305,20 +1304,20 @@ function Lab1() {
                                     children: "         Fantasy         "
                                 }, void 0, false, {
                                     fileName: "[project]/app/labs/lab1/page.tsx",
-                                    lineNumber: 260,
+                                    lineNumber: 259,
                                     columnNumber: 9
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 256,
+                            lineNumber: 255,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                             children: "Other HTML field types"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 264,
+                            lineNumber: 263,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1326,7 +1325,7 @@ function Lab1() {
                             children: " Email: "
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 266,
+                            lineNumber: 265,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1335,12 +1334,12 @@ function Lab1() {
                             id: "wd-text-fields-email"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 267,
+                            lineNumber: 266,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 269,
+                            lineNumber: 268,
                             columnNumber: 35
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1348,7 +1347,7 @@ function Lab1() {
                             children: " Starting salary:"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 271,
+                            lineNumber: 270,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1358,12 +1357,12 @@ function Lab1() {
                             id: "wd-text-fields-salary-start"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 272,
+                            lineNumber: 271,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 275,
+                            lineNumber: 274,
                             columnNumber: 42
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1371,7 +1370,7 @@ function Lab1() {
                             children: " Rating: "
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 277,
+                            lineNumber: 276,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1382,12 +1381,12 @@ function Lab1() {
                             id: "wd-text-fields-rating"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 278,
+                            lineNumber: 277,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 282,
+                            lineNumber: 281,
                             columnNumber: 36
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1395,7 +1394,7 @@ function Lab1() {
                             children: " Date of birth: "
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 284,
+                            lineNumber: 283,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1404,19 +1403,19 @@ function Lab1() {
                             id: "wd-text-fields-dob"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 285,
+                            lineNumber: 284,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 287,
+                            lineNumber: 286,
                             columnNumber: 33
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                             children: "Anchor tag"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 290,
+                            lineNumber: 289,
                             columnNumber: 8
                         }, this),
                         "Please",
@@ -1426,13 +1425,13 @@ function Lab1() {
                             children: "click here"
                         }, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 292,
+                            lineNumber: 291,
                             columnNumber: 1
                         }, this),
                         "to get dummy text",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/labs/lab1/page.tsx",
-                            lineNumber: 293,
+                            lineNumber: 292,
                             columnNumber: 18
                         }, this)
                     ]
