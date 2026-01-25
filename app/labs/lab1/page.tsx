@@ -51,7 +51,7 @@ This is the third paragraph. Wrap each paragraph with the paragraph tag to tell 
             <ul id="wd-my-books">
                 <li>Dune</li>
                 <li>Lord of the Rings</li>
-                <li>Ender's Game</li>
+                <li>Enders Game</li>
                 <li>Red Mars</li>
                 <li>The Forever War</li>
             </ul>
@@ -194,7 +194,6 @@ Your favorite books (in no particular order)
 
       <button
       type="button"
-      onclick="alert('Life is Good!')"
       id="wd-all-good">
       Hello World!
       </button>
