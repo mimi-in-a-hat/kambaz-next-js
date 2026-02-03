@@ -1,8 +1,11 @@
 {
+  "/(kambaz)/account/profile/page": "app/(kambaz)/account/profile/page.js",
   "/(kambaz)/account/signin/page": "app/(kambaz)/account/signin/page.js",
-  "/labs/lab1/page": "app/labs/lab1/page.js",
-  "/labs/lab2/page": "app/labs/lab2/page.js",
-  "/labs/lab3/page": "app/labs/lab3/page.js",
+  "/(kambaz)/account/signup/page": "app/(kambaz)/account/signup/page.js",
+  "/(kambaz)/courses/[cid]/assignments/[aid]/page": "app/(kambaz)/courses/[cid]/assignments/[aid]/page.js",
+  "/(kambaz)/courses/[cid]/assignments/page": "app/(kambaz)/courses/[cid]/assignments/page.js",
+  "/(kambaz)/dashboard/page": "app/(kambaz)/dashboard/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/labs/page": "app/labs/page.js",
   "/page": "app/page.js"
 }

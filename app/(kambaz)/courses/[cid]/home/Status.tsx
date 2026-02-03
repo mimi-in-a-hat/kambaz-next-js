@@ -1,36 +1,76 @@
+import { MdDoNotDisturbAlt } from "react-icons/md";
+import { FaCheckCircle } from "react-icons/fa";
+import { BiImport } from "react-icons/bi";
+import { LiaFileImportSolid } from "react-icons/lia";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
+import { FaRegBell } from "react-icons/fa";
+import { TbFileExport } from "react-icons/tb";
+import { AiOutlineBarChart } from "react-icons/ai";
+import { Button } from "react-bootstrap";
+
 export default function CourseStatus() {
   return (
-    <div id="wd-course-status">
+    <div id="wd-course-status" style={{ width: "350px" }}>
       <h2>Course Status</h2>
 
-      <div className="wd-course-status-buttons">
-        <button>Unpublish</button>
-        <button>Publish</button>
+      {/* Publish / Unpublish */}
+      <div className="d-flex">
+        <div className="w-50 pe-1">
+          <Button
+            variant="secondary"
+            size="lg"
+            className="w-100 text-nowrap"
+          >
+            <MdDoNotDisturbAlt className="me-2 fs-5" />
+            Unpublish
+          </Button>
+        </div>
+
+        <div className="w-50">
+          <Button variant="success" size="lg" className="w-100">
+            <FaCheckCircle className="me-2 fs-5" />
+            Publish
+          </Button>
+        </div>
       </div>
 
-      <ul className="wd-course-status-actions">
-        <li>
-          <button>Import Existing Content</button>
-        </li>
-        <li>
-          <button>Import From Commons</button>
-        </li>
-        <li>
-          <button>Choose Home Page</button>
-        </li>
-        <li>
-          <button>View Course Stream</button>
-        </li>
-        <li>
-          <button>New Announcement</button>
-        </li>
-        <li>
-          <button>New Analytics</button>
-        </li>
-        <li>
-          <button>View Course Notifications</button>
-        </li>
-      </ul>
+      <br />
+
+      {/* Main Actions */}
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <BiImport className="me-2 fs-5" />
+        Import Existing Content
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <LiaFileImportSolid className="me-2 fs-5" />
+        Import from Commons
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <TbFileExport className="me-2 fs-5" />
+        Choose Home Page
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <HiOutlineSpeakerphone className="me-2 fs-5" />
+        View Course Stream
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <FaRegBell className="me-2 fs-5" />
+        New Announcement
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <AiOutlineBarChart className="me-2 fs-5" />
+        New Analytics
+      </Button>
+
+      <Button variant="secondary" size="lg" className="w-100 mt-1 text-start">
+        <AiOutlineBarChart className="me-2 fs-5" />
+        View Course Notifications
+      </Button>
     </div>
   );
 }

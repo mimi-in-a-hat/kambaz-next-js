@@ -1,66 +1,44 @@
+import ListGroup from "react-bootstrap/ListGroup";
+import ListGroupItem from "react-bootstrap/ListGroupItem";
+import { BsGripVertical } from "react-icons/bs";
+import { FaFileAlt } from "react-icons/fa";
 import Link from "next/link";
+import AssignmentsControls from "./AssignmentsControls";
+import React from "react";
 
-export default function Assignments() {
+const Assignments: React.FC = () => {
   return (
     <div id="wd-assignments">
-      <input
-        placeholder="Search for Assignments"
-        id="wd-search-assignment"
-      />
+      <AssignmentsControls />
 
-      <button id="wd-add-assignment-group">+ Group</button>
-      <button id="wd-add-assignment">+ Assignment</button>
+      <ListGroup className="rounded-0">
+        <ListGroupItem className="p-0 mb-4 fs-5 border-gray">
+          <div className="bg-secondary p-3 ps-2">
+            <BsGripVertical className="me-2 fs-3" />
+            ASSIGNMENTS
+          </div>
 
-      <h3 id="wd-assignments-title">
-        ASSIGNMENTS 40% of Total <button>+</button>
-      </h3>
-
-      <ul id="wd-assignment-list">
-        <li className="wd-assignment-list-item">
-          <Link
-            href="/courses/1234/assignments/123"
-            className="wd-assignment-link"
-          >
-            A1 - ENV + HTML
-          </Link>
-        </li>
-
-        <li className="wd-assignment-list-item">
-          <Link
-            href="/courses/1234/assignments/124"
-            className="wd-assignment-link"
-          >
-            A2 - CSS + BOOTSTRAP
-          </Link>
-        </li>
-
-        <li className="wd-assignment-list-item">
-          <Link
-            href="/courses/1234/assignments/125"
-            className="wd-assignment-link"
-          >
-            A3 - JAVASCRIPT + REACT
-          </Link>
-        </li>
-
-        <li className="wd-assignment-list-item">
-          <Link
-            href="/courses/1234/assignments/126"
-            className="wd-assignment-link"
-          >
-            A4 - STATE + ROUTING
-          </Link>
-        </li>
-
-        <li className="wd-assignment-list-item">
-          <Link
-            href="/courses/1234/assignments/127"
-            className="wd-assignment-link"
-          >
-            A5 - FULL STACK
-          </Link>
-        </li>
-      </ul>
+          <ListGroup className="rounded-0">
+            <ListGroupItem className="wd-lesson p-3 ps-1">
+              <BsGripVertical className="me-2 fs-3" />
+              <FaFileAlt className="me-2 text-success fs-4" />
+              <Link
+                href="/courses/1234/assignments/edit"
+                className="fw-bold text-decoration-none"
+              >
+                A1 – HTML Basics
+              </Link>
+              <br />
+              <span className="text-muted fs-6">
+                <strong>Due</strong> Sep 18 at 11:59pm |{" "}
+                <strong>Points</strong> 100 | <strong>Available</strong> Sep 5
+              </span>
+            </ListGroupItem>
+          </ListGroup>
+        </ListGroupItem>
+      </ListGroup>
     </div>
   );
-}
+};
+
+export default Assignments;
