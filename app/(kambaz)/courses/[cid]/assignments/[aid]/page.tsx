@@ -1,16 +1,43 @@
+"use client";
+import Link from "next/link";
+import { useParams } from "next/navigation";
+import { assignments } from "@/app/(kambaz)/database";
+
+interface Assignment {
+  _id: string;
+  title: string;
+  course: string;
+  description: string;
+  dueDate: string;
+  availableDate: string;
+  points: number;
+}
+
 export default function AssignmentEditor() {
+  const params = useParams();
+  const aid = params.aid as string;
+  const cid = params.cid as string;
+
+  // Find the assignment with the given ID
+  const assignment = assignments.find(
+    (a: Assignment) => a._id === aid
+  ) as Assignment | undefined;
+
+  if (!assignment) {
+    return <div>Assignment not found</div>;
+  }
+
   return (
     <div id="wd-assignments-editor">
       <label htmlFor="wd-name">Assignment Name</label><br />
       <input
         id="wd-name"
-        defaultValue="A1 - ENV + HTML"
+        defaultValue={assignment.title}
       />
       <br /><br />
 
       <textarea id="wd-description" rows={4} cols={50}>
-        The assignment is available online. Submit a link to the landing page of
-        your application.
+        {assignment.description}
       </textarea>
 
       <br /><br />
@@ -22,7 +49,7 @@ export default function AssignmentEditor() {
               <label htmlFor="wd-points">Points</label>
             </td>
             <td>
-              <input id="wd-points" defaultValue={100} />
+              <input id="wd-points" defaultValue={assignment.points} />
             </td>
           </tr>
 
@@ -106,7 +133,7 @@ export default function AssignmentEditor() {
               <label htmlFor="wd-due-date">Due</label>
             </td>
             <td>
-              <input type="date" id="wd-due-date" />
+              <input type="date" id="wd-due-date" defaultValue={assignment.dueDate} />
             </td>
           </tr>
 
@@ -117,7 +144,7 @@ export default function AssignmentEditor() {
               </label>
             </td>
             <td>
-              <input type="date" id="wd-available-from" />
+              <input type="date" id="wd-available-from" defaultValue={assignment.availableDate} />
             </td>
           </tr>
 
@@ -133,6 +160,15 @@ export default function AssignmentEditor() {
           </tr>
         </tbody>
       </table>
+
+      <div style={{ marginTop: "20px", display: "flex", gap: "10px" }}>
+        <Link href={`/courses/${cid}/assignments`}>
+          <button style={{ padding: "10px 20px" }}>Cancel</button>
+        </Link>
+        <Link href={`/courses/${cid}/assignments`}>
+          <button style={{ padding: "10px 20px" }}>Save</button>
+        </Link>
+      </div>
     </div>
   );
 }

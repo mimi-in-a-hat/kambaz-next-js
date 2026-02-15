@@ -7,7 +7,7 @@ export default function KambazLayout({ children }: Readonly<{ children: ReactNod
     <div>
       <KambazNavigation />
     </div>
-    <div className="flex-fill">
+    <div className="flex-fill" style={{ marginLeft: "120px" }}>
       {children}
     </div>
   </div>
