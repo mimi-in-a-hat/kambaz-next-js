@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/%28kambaz%29/account/Navigation.tsx"],"sourcesContent":["\"use client\";\r\nimport Link from \"next/link\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { RootState } from \"../store\";\r\n\r\nexport default function AccountNavigation() {\r\n  const { currentUser } = useSelector((state: RootState) => state.accountReducer);\r\n  \r\n  return (\r\n    <div id=\"wd-account-navigation\">\r\n      {!currentUser && (\r\n        <>\r\n          <Link href=\"signin\"> Signin </Link> <br />\r\n          <Link href=\"signup\"> Signup </Link> <br />\r\n        </>\r\n      )}\r\n      {currentUser && (\r\n        <>\r\n          <Link href=\"profile\"> Profile </Link> <br />\r\n        </>\r\n      )}\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;AACA;AAFA;;;;AAKe,SAAS;IACtB,MAAM,EAAE,WAAW,EAAE,GAAG,IAAA,wKAAW,EAAC,CAAC,QAAqB,MAAM,cAAc;IAE9E,qBACE,8OAAC;QAAI,IAAG;;YACL,CAAC,6BACA;;kCACE,8OAAC,uKAAI;wBAAC,MAAK;kCAAS;;;;;;oBAAe;kCAAC,8OAAC;;;;;kCACrC,8OAAC,uKAAI;wBAAC,MAAK;kCAAS;;;;;;oBAAe;kCAAC,8OAAC;;;;;;;YAGxC,6BACC;;kCACE,8OAAC,uKAAI;wBAAC,MAAK;kCAAU;;;;;;oBAAgB;kCAAC,8OAAC;;;;;;;;;;;;;AAKjD"}}]
+}

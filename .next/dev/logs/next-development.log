@@ -1,243 +1,1278 @@
-[00:00:04.976] Server  LOG     ✓ Ready in 3.6s
-[00:00:20.967] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.684] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:41.684] Server  LOG     ✓ Compiled in 458ms
-[00:09:45.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:13.752] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:10:23.862] Browser ERROR   Use the `defaultValue` or `value` props instead of setting children on <textarea>.
-[00:12:55.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:57.366] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:13:01.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:48.112] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:13:50.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:34.041] Server  ERROR   ⨯ ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:00:02.606] Server  LOG     ✓ Ready in 2.1s
+[00:00:06.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.350] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:08.350] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:08.350] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:16.908] Browser ERROR   uncaughtError: TypeError: editModule is not a function
+[00:00:17.764] Browser ERROR   uncaughtError: TypeError: editModule is not a function
+[00:00:18.091] Browser ERROR   uncaughtError: TypeError: editModule is not a function
+[00:01:57.395] Server  LOG     ✓ Compiled in 76ms
+[00:03:30.234] Server  LOG     ✓ Compiled in 213ms
+[00:03:31.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:59.526] Server  LOG     ✓ Compiled in 124ms
+[00:05:04.513] Server  LOG     ✓ Compiled in 57ms
+[00:05:05.009] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[00:05:07.668] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:07.688] Server  LOG     ✓ Compiled in 29ms
+[00:05:08.683] Server  ERROR   ⨯ ReferenceError: addNewModule is not defined
+[00:05:08.727] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[00:05:09.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:10.014] Browser ERROR   uncaughtError: ReferenceError: module is not defined
+[00:05:14.808] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:16.451] Server  ERROR   ⨯ ReferenceError: editModule is not defined
+[00:05:16.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:18.007] Browser ERROR   uncaughtError: ReferenceError: editModule is not defined
+[00:05:22.375] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:23.293] Server  LOG     ✓ Compiled in 56ms
+[00:05:23.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:25.675] Server  LOG     ✓ Compiled in 16ms
+[00:05:53.700] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:12.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:13.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:17.042] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:06:17.042] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:06:17.042] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:07.805] Server  LOG     ✓ Compiled in 16ms
+[00:07:09.912] Server  LOG     ✓ Compiled in 17ms
+[00:07:12.661] Server  LOG     ✓ Compiled in 41ms
+[00:08:23.543] Server  LOG     ✓ Compiled in 88ms
+[00:08:24.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:56.793] Server  LOG     ✓ Compiled in 110ms
+[00:09:03.670] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:52.844] Server  LOG     ✓ Compiled in 27ms
+[00:11:45.707] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:45.707] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:06.082] Server  LOG     ✓ Compiled in 23ms
+[00:12:07.013] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:10.012] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:13.010] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:16.013] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:17.000] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:22.013] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 14 column 1
+    at .
+      10 |     "role": "STUDENT",
+      11 |     "lastActivity": "2025-02-10",
+      12 |     "totalActivity": "10:21:32"
+      13 |   },
+         | v
+      14 + ]
+         | ^
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:29.642] Server  LOG     ✓ Compiled in 7ms
+[00:12:30.009] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 12 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 12 column 3
+    at [0].?
+       8 |     "loginId": "001234561S",
+       9 |     "section": "S101",
+      10 |     "role": "STUDENT",
+      11 | 
+         |   v
+      12 +   },
+         |   ^
+      13 | ]
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:31.808] Server  LOG     ✓ Compiled in 8ms
+[00:12:32.010] Browser ERROR   ./app/(kambaz)/database/users.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 12 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/app/(kambaz)/database/users.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 12 column 3
+    at [0].?
+       8 |     "loginId": "001234561S",
+       9 |     "section": "S101",
+      10 |     "role": "STUDENT",
+      11 | 
+         |   v
+      12 +   }
+         |   ^
+      13 | ]
+
+Import traces:
+  #1 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/account/signin/page.tsx [Client Component SSR]
+    ./app/(kambaz)/account/signin/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/(kambaz)/database/users.json
+    ./app/(kambaz)/database/index.ts [Client Component SSR]
+    ./app/(kambaz)/courses/[cid]/modules/reducer.ts [Client Component SSR]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+[00:12:36.941] Server  LOG     ✓ Compiled in 11ms
+[00:12:54.211] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:54.211] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:03.624] Server  LOG     ✓ Compiled in 191ms
+[00:14:04.007] Browser ERROR   ./app/(kambaz)/dashboard/page.tsx:14:15
+Parsing ecmascript source code failed
+  12 | import 
+  13 |
+> 14 | type Course = {
+     |               ^
+  15 |   _id: string;
+  16 |   name: string;
+  17 |   number: string;
+
+Expected ident
+[00:14:06.599] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:06.600] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:06.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:08.010] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:08.010] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:08.802] Server  LOG     ✓ Compiled in 12ms
+[00:14:24.817] Server  LOG     ✓ Compiled in 100ms
+[00:14:25.006] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:25.006] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:15:14.354] Server  LOG     ✓ Compiled in 12ms
+[00:15:30.013] Browser ERROR   uncaughtError: ReferenceError: useDispatch is not defined
+[00:15:34.134] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:34.483] Server  ERROR   ⨯ ReferenceError: addCourse is not defined
+[00:15:34.513] Server  LOG     ✓ Compiled in 18ms
+[00:15:34.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:35.999] Browser ERROR   uncaughtError: ReferenceError: addCourse is not defined
+[00:15:40.936] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:41.300] Server  LOG     ✓ Compiled in 23ms
+[00:15:41.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:43.932] Server  LOG     ✓ Compiled in 13ms
+[00:18:18.591] Server  LOG     ✓ Compiled in 193ms
+[00:18:32.971] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:19:02.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:07.873] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:19:35.539] Server  LOG     ✓ Compiled in 133ms
+[00:19:59.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:01.834] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:20:46.198] Server  LOG     ✓ Compiled in 63ms
+[00:21:07.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:08.298] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:23:08.885] Server  LOG     ✓ Compiled in 271ms
+[00:23:09.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:11.010] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:26:34.094] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
 
 
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:14:34.515] Browser ERROR   ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
-
-Import traces:
-  Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:14:34.522] Browser ERROR   ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
-
-Import traces:
-  Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:14:34.536] Server  ERROR   ⨯ ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:26:34.095] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
 
 
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:14:34.612] Server  ERROR   ⨯ ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:26:34.097] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
 
 
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:14:34.652] Server  ERROR   ⨯ ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:26:34.098] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
 
 
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:14:34.883] Browser ERROR   uncaughtError: Error: ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:26:34.100] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
 
 
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:14:35.304] Browser ERROR   ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+[00:26:34.101] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
-[00:14:35.304] Browser ERROR   ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+
+
+[00:26:34.102] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
-[00:15:00.974] Browser ERROR   ./app/(kambaz)/courses/[cid]/people/page.tsx:5:1
-Module not found: Can't resolve '../../../../database'
-  3 | import { Table } from "react-bootstrap";
-  4 | import { FaUserCircle } from "react-icons/fa";
-> 5 | import * as db from "../../../../database";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { useParams } from "next/navigation";
-  7 |
-  8 | interface User {
+
+
+[00:26:34.103] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
 
 Import traces:
   Client Component Browser:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component Browser]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Client Component SSR]
-    ./app/(kambaz)/courses/[cid]/people/page.tsx [Server Component]
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
-[00:15:00.998] Server  LOG     ✓ Compiled in 38ms
-[00:15:02.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:05.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:06.538] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:18:51.596] Browser ERROR   Use the `defaultValue` or `value` props instead of setting children on <textarea>.
-[00:18:56.583] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:57.338] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:18:59.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:01.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:02.689] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:19:04.176] Browser ERROR   Use the `defaultValue` or `value` props instead of setting children on <textarea>.
+
+
+[00:26:34.104] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.105] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.106] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.107] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.109] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.110] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.111] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.112] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.114] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.116] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.117] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.118] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.120] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.121] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.122] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.123] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.125] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.126] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.127] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.128] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.130] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.130] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.131] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.132] Server  ERROR   ⨯ ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:34.136] Server  LOG     ✓ Compiled in 83ms
+[00:26:35.657] Browser ERROR   ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:35.657] Browser ERROR   ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:35.657] Browser ERROR   ./app/(kambaz)/store.ts:4:1
+Module not found: Can't resolve './courses/[cid]/assignments/reducer'
+  2 | import coursesReducer from "./courses/reducer";
+  3 | import modulesReducer from "./courses/[cid]/modules/reducer";
+> 4 | import assignmentsReducer from "./courses/[cid]/assignments/reducer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import accountReducer from "./account/reducer";
+  6 | const store = configureStore({
+  7 |   reducer: {
+
+Import traces:
+  Client Component Browser:
+    ./app/(kambaz)/store.ts [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Client Component Browser]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/(kambaz)/store.ts [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Client Component SSR]
+    ./app/(kambaz)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:36.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:59.442] Server  LOG     ✓ Compiled in 142ms
+[00:28:01.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:48.539] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:29:23.065] Server  LOG     ✓ Compiled in 109ms
+[00:29:33.839] Server  LOG     ✓ Compiled in 20ms
+[00:29:52.209] Server  LOG     ✓ Compiled in 23ms
+[00:30:07.137] Server  LOG     ✓ Compiled in 28ms
+[00:32:50.857] Server  LOG     ✓ Compiled in 24ms
+[00:33:03.014] Server  LOG     ✓ Compiled in 97ms
+[00:33:18.251] Server  LOG     ✓ Compiled in 45ms
+[00:33:59.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:57.708] Server  LOG     ✓ Compiled in 348ms
+[00:34:58.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:48.383] Server  LOG     ✓ Compiled in 57ms
+[00:37:49.140] Server  LOG     ✓ Compiled in 18ms
+[00:38:24.301] Server  LOG     ✓ Compiled in 19ms
+[00:39:10.661] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

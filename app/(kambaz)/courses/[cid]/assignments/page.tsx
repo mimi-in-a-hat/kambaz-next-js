@@ -2,12 +2,14 @@
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import { BsGripVertical } from "react-icons/bs";
-import { FaFileAlt } from "react-icons/fa";
+import { FaFileAlt, FaTrash } from "react-icons/fa";
 import Link from "next/link";
 import AssignmentsControls from "./AssignmentsControls";
 import { useParams } from "next/navigation";
-import { assignments } from "@/app/(kambaz)/database";
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { RootState } from "@/app/(kambaz)/store";
+import { deleteAssignment } from "./reducer";
 
 interface Assignment {
   _id: string;
@@ -16,17 +18,29 @@ interface Assignment {
   description: string;
   dueDate: string;
   availableDate: string;
+  availableUntilDate?: string;
   points: number;
 }
 
 const Assignments: React.FC = () => {
   const params = useParams();
   const cid = params.cid as string;
+  const dispatch = useDispatch();
+  const { assignments } = useSelector((state: RootState) => state.assignmentsReducer);
 
   // Filter assignments for the current course
-  const courseAssignments = assignments.filter(
+  const courseAssignments = (assignments as Assignment[]).filter(
     (assignment: Assignment) => assignment.course === cid
   );
+
+  const handleDelete = (assignmentId: string, assignmentTitle: string) => {
+    const confirmed = window.confirm(
+      `Are you sure you want to remove the assignment "${assignmentTitle}"?`
+    );
+    if (confirmed) {
+      dispatch(deleteAssignment(assignmentId));
+    }
+  };
 
   return (
     <div id="wd-assignments">
@@ -50,6 +64,11 @@ const Assignments: React.FC = () => {
                 >
                   {assignment.title}
                 </Link>
+                <FaTrash
+                  className="text-danger float-end ms-2"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => handleDelete(assignment._id, assignment.title)}
+                />
                 <br />
                 <span className="text-muted fs-6">
                   <strong>Due</strong> {assignment.dueDate} at 11:59pm |{" "}
