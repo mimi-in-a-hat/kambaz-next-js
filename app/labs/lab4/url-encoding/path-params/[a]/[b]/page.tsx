@@ -1,8 +1,8 @@
 "use client";
 
-export const dynamic = "force-dynamic";
-
 import { useParams } from "next/navigation";
+
+export const dynamic = "force-dynamic";
 
 
 export default function PathCalculator() {
