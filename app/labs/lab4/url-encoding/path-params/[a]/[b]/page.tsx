@@ -1,11 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
 import { useParams } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
-
-export default function PathCalculator() {
+function PathCalculatorContent() {
  const params = useParams();
 
 
@@ -30,5 +30,13 @@ export default function PathCalculator() {
      </p>
      <h2 style={{ color: "green" }}>Sum = {sum}</h2>
    </div>
+ );
+}
+
+export default function PathCalculator() {
+ return (
+   <Suspense>
+     <PathCalculatorContent />
+   </Suspense>
  );
 }

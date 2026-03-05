@@ -1,11 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
-
-export default function QueryCalculator() {
+function QueryCalculatorContent() {
  const searchParams = useSearchParams();
 
 
@@ -34,5 +34,13 @@ export default function QueryCalculator() {
 
      <h2 style={{ color: "green" }}>Sum = {sum}</h2>
    </div>
+ );
+}
+
+export default function QueryCalculator() {
+ return (
+   <Suspense>
+     <QueryCalculatorContent />
+   </Suspense>
  );
 }
