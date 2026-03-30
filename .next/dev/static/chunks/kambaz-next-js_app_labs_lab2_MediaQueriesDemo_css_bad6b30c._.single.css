@@ -1,0 +1,28 @@
+/* [project]/kambaz-next-js/app/labs/lab2/MediaQueriesDemo.css [app-client] (css) */
+.wd-media-queries-demo {
+  color: #fff;
+  background-color: green;
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .wd-media-queries-demo {
+    color: #000;
+    background-color: #ff0;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+  .wd-media-queries-demo {
+    color: #fff;
+    background-color: #00f;
+  }
+}
+
+@media (min-width: 1250px) {
+  .wd-media-queries-demo {
+    color: #fff;
+    background-color: red;
+  }
+}
+
+/*# sourceMappingURL=kambaz-next-js_app_labs_lab2_MediaQueriesDemo_css_bad6b30c._.single.css.map*/

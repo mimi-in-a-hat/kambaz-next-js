@@ -1,10 +1,12 @@
 "use client"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../store";
 import { enrollUser, unenrollUser } from "../enrollments/reducer";
+import * as client from "../courses/client";
+import { addNewCourse, deleteCourse, updateCourse } from "../courses/reducer";
 
 type Course = {
   _id: string;
@@ -34,6 +36,7 @@ type User = {
   role: string;
 };
 
+
 export default function Dashboard() {
   const dispatch = useDispatch();
   const { currentUser } = useSelector((state: RootState) => state.accountReducer);
@@ -42,6 +45,34 @@ export default function Dashboard() {
   ) as Course[];
   const { enrollments } = useSelector((state: RootState) => state.enrollmentsReducer);
   const [showAllCourses, setShowAllCourses] = useState(false);
+
+  const onDeleteCourse = async (courseId: string) => {
+    await client.deleteCourse(courseId);
+    dispatch(deleteCourse(courseId));
+  };
+
+  const fetchCourses = async () => {
+    try {
+      const fetchedCourses = await client.findMyCourses();
+      dispatch(setCourses(fetchedCourses));
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchCourses();
+  }, [currentUser, dispatch]);
+
+  const onAddCourse = async (course: Course) => {
+    const newCourse = await client.createCourse(course);
+    dispatch(addNewCourse(newCourse));
+  };
+
+  const onUpdateCourse = async (course: Course) => {
+    await client.updateCourse(course);
+    dispatch(updateCourse(course));
+  };
 
   const enrolledCourses = courses.filter((course) =>
     (enrollments as Enrollment[]).some(
@@ -127,29 +158,51 @@ export default function Dashboard() {
                 </Link>
                 {showAllCourses && (
                   <Card.Body>
-                    {isEnrolled(course._id) ? (
-                      <Button 
-                        variant="danger" 
-                        className="w-100"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          handleUnenroll(course._id);
-                        }}
-                      >
-                        Unenroll
-                      </Button>
-                    ) : (
-                      <Button 
-                        variant="success" 
-                        className="w-100"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          handleEnroll(course._id);
-                        }}
-                      >
-                        Enroll
-                      </Button>
-                    )}
+                    <div className="d-grid gap-2">
+                      {isEnrolled(course._id) ? (
+                        <Button 
+                          variant="danger" 
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handleUnenroll(course._id);
+                          }}
+                        >
+                          Unenroll
+                        </Button>
+                      ) : (
+                        <Button 
+                          variant="success" 
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handleEnroll(course._id);
+                          }}
+                        >
+                          Enroll
+                        </Button>
+                      )}
+                      {course.author === (currentUser as unknown as User)?._id && (
+                        <Button
+                          variant="warning"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            onUpdateCourse(course);
+                          }}
+                        >
+                          Update
+                        </Button>
+                      )}
+                      {course.author === (currentUser as unknown as User)?._id && (
+                        <Button 
+                          variant="danger" 
+                          onClick={(e) => {
+                            e.preventDefault();
+                            onDeleteCourse(course._id);
+                          }}
+                        >
+                          Delete
+                        </Button>
+                      )}
+                    </div>
                   </Card.Body>
                 )}
               </Card>

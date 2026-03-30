@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem"
@@ -10,7 +10,8 @@ import ModuleControlButtons from "./ModuleControlButtons";
 import LessonControlButtons from "./LessonControlButtons";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/app/(kambaz)/store";
-import { addModule, deleteModule, updateModule, editModule as editModuleAction } from "@/app/(kambaz)/courses/[cid]/modules/reducer";
+import { setModules, addModule, deleteModule, updateModule, editModule as editModuleAction } from "@/app/(kambaz)/courses/[cid]/modules/reducer";
+import * as client from "../../client";
 
 type Lesson = {
   _id: string;
@@ -36,6 +37,26 @@ export default function Modules() {
 
   const courseModules = (modules as Module[]).filter((module) => module.course === cid);
 
+  const onUpdateModule = async (module: any) => {
+    await client.updateModule(module);
+    const newModules = modules.map((m: any) => m._id === module._id ? module : m );
+    dispatch(setModules(newModules));
+  };
+
+  const onRemoveModule = async (moduleId: string) => {
+    await client.deleteModule(moduleId);
+    dispatch(setModules(modules.filter((m: any) => m._id !== moduleId)));
+  };
+
+  const fetchModules = async () => {
+    const modules = await client.findModulesForCourse(cid as string);
+    dispatch(setModules(modules));
+  };
+  useEffect(() => {
+    fetchModules();
+  }, []);
+
+  
 
   return (
     <div>
@@ -72,6 +93,7 @@ export default function Modules() {
                   onChange={(e) => dispatch(updateModule({ ...module, name: e.target.value }))}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
+                      onUpdateModule({ ...module, editing: false });
                       dispatch(updateModule({ ...module, editing: false }));
                     }
                   }}
@@ -80,7 +102,10 @@ export default function Modules() {
               ) : (
                 <>{module.name}</>
               )}
-              <ModuleControlButtons moduleId={module._id} editModule={(moduleId) => dispatch(editModuleAction(moduleId))} deleteModule={(moduleId) => dispatch(deleteModule(moduleId))} />
+              <ModuleControlButtons moduleId={module._id} 
+              deleteModule={(moduleId) => onRemoveModule(moduleId)}
+
+              editModule={(moduleId) => dispatch(editModuleAction(moduleId))} deleteModule={(moduleId) => dispatch(deleteModule(moduleId))} />
               <button
                 className="btn btn-sm btn-danger float-end me-2"
                 onClick={() => dispatch(deleteModule(module._id))}
