@@ -37,24 +37,26 @@ export default function Modules() {
 
   const courseModules = (modules as Module[]).filter((module) => module.course === cid);
 
-  const onUpdateModule = async (module: any) => {
+  const onUpdateModule = async (module: Module) => {
     await client.updateModule(module);
-    const newModules = modules.map((m: any) => m._id === module._id ? module : m );
+    const newModules = (modules as Module[]).map((m) =>
+      m._id === module._id ? module : m
+    );
     dispatch(setModules(newModules));
   };
 
   const onRemoveModule = async (moduleId: string) => {
     await client.deleteModule(moduleId);
-    dispatch(setModules(modules.filter((m: any) => m._id !== moduleId)));
+    dispatch(setModules((modules as Module[]).filter((m) => m._id !== moduleId)));
   };
 
-  const fetchModules = async () => {
-    const modules = await client.findModulesForCourse(cid as string);
-    dispatch(setModules(modules));
-  };
   useEffect(() => {
+    const fetchModules = async () => {
+      const fetchedModules = await client.findModulesForCourse(cid as string);
+      dispatch(setModules(fetchedModules));
+    };
     fetchModules();
-  }, []);
+  }, [cid, dispatch]);
 
   
 
@@ -105,7 +107,7 @@ export default function Modules() {
               <ModuleControlButtons moduleId={module._id} 
               deleteModule={(moduleId) => onRemoveModule(moduleId)}
 
-              editModule={(moduleId) => dispatch(editModuleAction(moduleId))} deleteModule={(moduleId) => dispatch(deleteModule(moduleId))} />
+              editModule={(moduleId) => dispatch(editModuleAction(moduleId))} />
               <button
                 className="btn btn-sm btn-danger float-end me-2"
                 onClick={() => dispatch(deleteModule(module._id))}
