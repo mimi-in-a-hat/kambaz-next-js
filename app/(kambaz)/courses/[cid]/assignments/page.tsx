@@ -6,10 +6,11 @@ import { FaFileAlt, FaTrash } from "react-icons/fa";
 import Link from "next/link";
 import AssignmentsControls from "./AssignmentsControls";
 import { useParams } from "next/navigation";
-import React from "react";
+import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "@/app/(kambaz)/store";
-import { deleteAssignment } from "./reducer";
+import { deleteAssignment, setAssignments } from "./reducer";
+import * as client from "./client";
 
 interface Assignment {
   _id: string;
@@ -28,16 +29,25 @@ const Assignments: React.FC = () => {
   const dispatch = useDispatch();
   const { assignments } = useSelector((state: RootState) => state.assignmentsReducer);
 
+  useEffect(() => {
+    const fetchAssignments = async () => {
+      const courseAssignments = await client.findAssignmentsForCourse(cid);
+      dispatch(setAssignments(courseAssignments));
+    };
+    fetchAssignments();
+  }, [cid, dispatch]);
+
   // Filter assignments for the current course
   const courseAssignments = (assignments as Assignment[]).filter(
     (assignment: Assignment) => assignment.course === cid
   );
 
-  const handleDelete = (assignmentId: string, assignmentTitle: string) => {
+  const handleDelete = async (assignmentId: string, assignmentTitle: string) => {
     const confirmed = window.confirm(
       `Are you sure you want to remove the assignment "${assignmentTitle}"?`
     );
     if (confirmed) {
+      await client.deleteAssignment(assignmentId);
       dispatch(deleteAssignment(assignmentId));
     }
   };

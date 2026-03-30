@@ -4,9 +4,10 @@ import Link from "next/link";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../store";
-import { enrollUser, unenrollUser } from "../enrollments/reducer";
+import { enrollUser, unenrollUser, setEnrollments } from "../enrollments/reducer";
 import * as client from "../courses/client";
-import { addNewCourse, deleteCourse, updateCourse } from "../courses/reducer";
+import * as enrollmentsClient from "../enrollments/client";
+import { deleteCourse, setCourses, updateCourse } from "../courses/reducer";
 
 type Course = {
   _id: string;
@@ -51,23 +52,25 @@ export default function Dashboard() {
     dispatch(deleteCourse(courseId));
   };
 
-  const fetchCourses = async () => {
-    try {
-      const fetchedCourses = await client.findMyCourses();
-      dispatch(setCourses(fetchedCourses));
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
   useEffect(() => {
-    fetchCourses();
-  }, [currentUser, dispatch]);
+    const loadData = async () => {
+      try {
+        const fetchedCourses = await client.fetchAllCourses();
+        dispatch(setCourses(fetchedCourses));
+      } catch (error) {
+        console.error(error);
+      }
 
-  const onAddCourse = async (course: Course) => {
-    const newCourse = await client.createCourse(course);
-    dispatch(addNewCourse(newCourse));
-  };
+      try {
+        const fetchedEnrollments = await enrollmentsClient.findMyEnrollments();
+        dispatch(setEnrollments(fetchedEnrollments));
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    loadData();
+  }, [currentUser, dispatch]);
 
   const onUpdateCourse = async (course: Course) => {
     await client.updateCourse(course);
@@ -90,14 +93,16 @@ export default function Dashboard() {
     );
   };
 
-  const handleEnroll = (courseId: string) => {
+  const handleEnroll = async (courseId: string) => {
     if (currentUser) {
+      await enrollmentsClient.enrollUserInCourse(courseId);
       dispatch(enrollUser({ userId: (currentUser as unknown as User)._id, courseId }));
     }
   };
 
-  const handleUnenroll = (courseId: string) => {
+  const handleUnenroll = async (courseId: string) => {
     if (currentUser) {
+      await enrollmentsClient.unenrollUserFromCourse(courseId);
       dispatch(unenrollUser({ userId: (currentUser as unknown as User)._id, courseId }));
     }
   };
@@ -164,7 +169,7 @@ export default function Dashboard() {
                           variant="danger" 
                           onClick={(e) => {
                             e.preventDefault();
-                            handleUnenroll(course._id);
+                            void handleUnenroll(course._id);
                           }}
                         >
                           Unenroll
@@ -174,7 +179,7 @@ export default function Dashboard() {
                           variant="success" 
                           onClick={(e) => {
                             e.preventDefault();
-                            handleEnroll(course._id);
+                            void handleEnroll(course._id);
                           }}
                         >
                           Enroll

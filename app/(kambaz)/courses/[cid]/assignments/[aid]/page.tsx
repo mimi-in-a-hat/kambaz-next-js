@@ -4,6 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/app/(kambaz)/store";
 import { addAssignment, updateAssignment } from "../reducer";
+import * as client from "../client";
 
 interface Assignment {
   _id: string;
@@ -22,12 +23,13 @@ export default function AssignmentEditor() {
   const dispatch = useDispatch();
   const aid = params.aid as string;
   const cid = params.cid as string;
-  
+  const [assignmentNotFound, setAssignmentNotFound] = useState(false);
+
   const { assignments } = useSelector((state: RootState) => state.assignmentsReducer);
-  
+
   // Determine if we're creating a new assignment or editing an existing one
   const isNewAssignment = aid === "new";
-  const existingAssignment = !isNewAssignment 
+  const existingAssignment = !isNewAssignment
     ? (assignments as Assignment[]).find((a: Assignment) => a._id === aid)
     : null;
 
@@ -43,16 +45,32 @@ export default function AssignmentEditor() {
   });
 
   useEffect(() => {
-    if (existingAssignment) {
-      setAssignment(existingAssignment);
-    }
-  }, [existingAssignment]);
+    const loadAssignment = async () => {
+      if (isNewAssignment) {
+        setAssignment((prev) => ({ ...prev, course: cid }));
+        return;
+      }
+      if (existingAssignment) {
+        setAssignment(existingAssignment);
+        return;
+      }
+      try {
+        const foundAssignment = await client.findAssignmentById(aid);
+        setAssignment(foundAssignment);
+      } catch (error) {
+        setAssignmentNotFound(true);
+      }
+    };
+    loadAssignment();
+  }, [aid, cid, existingAssignment, isNewAssignment]);
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (isNewAssignment) {
-      dispatch(addAssignment(assignment));
+      const newAssignment = await client.createAssignmentForCourse(cid, assignment);
+      dispatch(addAssignment(newAssignment));
     } else {
-      dispatch(updateAssignment(assignment));
+      const updatedAssignment = await client.updateAssignment(assignment);
+      dispatch(updateAssignment(updatedAssignment));
     }
     router.push(`/courses/${cid}/assignments`);
   };
@@ -61,7 +79,7 @@ export default function AssignmentEditor() {
     router.push(`/courses/${cid}/assignments`);
   };
 
-  if (!isNewAssignment && !existingAssignment) {
+  if (!isNewAssignment && assignmentNotFound) {
     return <div>Assignment not found</div>;
   }
 
