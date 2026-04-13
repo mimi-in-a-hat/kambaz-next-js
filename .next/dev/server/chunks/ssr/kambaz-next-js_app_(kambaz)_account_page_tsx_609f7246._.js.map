@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/%28kambaz%29/account/page.tsx"],"sourcesContent":["\"use client\";\nimport { useSelector } from \"react-redux\";\nimport { RootState } from \"../store\";\nimport { redirect } from \"next/navigation\";\nexport default function AccountPage() {\n const { currentUser } = useSelector((state: RootState) => state.accountReducer);\n if (!currentUser) {\n   redirect(\"/account/signin\");\n } else {\n   redirect(\"/account/profile\");\n }\n}\n"],"names":[],"mappings":";;;;AACA;AAEA;AAHA;;;AAIe,SAAS;IACvB,MAAM,EAAE,WAAW,EAAE,GAAG,IAAA,gMAAW,EAAC,CAAC,QAAqB,MAAM,cAAc;IAC9E,IAAI,CAAC,aAAa;QAChB,IAAA,sKAAQ,EAAC;IACX,OAAO;QACL,IAAA,sKAAQ,EAAC;IACX;AACD"}}]
+}

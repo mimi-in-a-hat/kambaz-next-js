@@ -1,0 +1,22 @@
+"use client";
+
+import { useEffect } from "react";
+
+
+export default function ClientComponentDemo() {
+  useEffect(() => {
+    alert("Hello");
+  }, []);
+
+
+ return (
+   <div>
+     <h1>Client Component Demo</h1>
+     <p>You should have seen an alert pop up when the page loaded.</p>
+     <p> <code>alert()</code> is a browser API — it only exists in the browser,
+       so this code can <strong>only run on the client</strong>. </p>
+     <p> If you removed <code>'use client'</code>, the build would fail because
+       <code>alert</code> is undefined on the server. </p>
+   </div>
+ );
+}

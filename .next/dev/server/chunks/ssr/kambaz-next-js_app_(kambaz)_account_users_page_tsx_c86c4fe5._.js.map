@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/%28kambaz%29/account/users/page.tsx"],"sourcesContent":["\"use client\";\r\nimport { useState, useEffect } from \"react\";\r\nimport { useParams } from \"next/navigation\";\r\nimport PeopleTable from \"../courses/[cid]/people/Table/page\";\r\nimport * as client from \"../client\";\r\nexport default function Users() {\r\n const [users, setUsers] = useState<any[]>([]);\r\n const { uid } = useParams();\r\n const fetchUsers = async () => {\r\n   const users = await client.findAllUsers();\r\n   setUsers(users);\r\n };\r\n useEffect(() => {\r\n   fetchUsers();\r\n }, [uid]);\r\n return (\r\n   <div>\r\n     <h3>Users</h3>\r\n     <PeopleTable users={users} fetchUsers={fetchUsers} />\r\n   </div>\r\n);}\r\n"],"names":[],"mappings":";;;;;AACA;AACA;;;;;;AAEA;AAJA;;;;;;AAKe,SAAS;IACvB,MAAM,CAAC,OAAO,SAAS,GAAG,IAAA,yOAAQ,EAAQ,EAAE;IAC5C,MAAM,EAAE,GAAG,EAAE,GAAG,IAAA,uKAAS;IACzB,MAAM,aAAa;QACjB,MAAM,QAAQ,MAAM,8KAAmB;QACvC,SAAS;IACX;IACA,IAAA,0OAAS,EAAC;QACR;IACF,GAAG;QAAC;KAAI;IACR,qBACE,sQAAC;;0BACC,sQAAC;0BAAG;;;;;;0BACJ,sQAAC;gBAAY,OAAO;gBAAO,YAAY;;;;;;;;;;;;AAE1C"}}]
+}

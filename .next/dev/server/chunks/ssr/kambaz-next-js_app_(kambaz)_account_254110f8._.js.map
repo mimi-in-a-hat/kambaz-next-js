@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/%28kambaz%29/account/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\nimport AccountNavigation from \"./Navigation\";\nexport default function AccountLayout({ children }: Readonly<{ children: ReactNode }>) {\n return (\n   <div id=\"wd-kambaz\">\n     <table>\n       <tbody>\n         <tr>\n           <td valign=\"top\">\n             <AccountNavigation />\n           </td>\n           <td valign=\"top\" width=\"100%\">\n             {children}\n           </td>\n         </tr>\n       </tbody>\n     </table>\n  </div>\n);}\n"],"names":[],"mappings":";;;;;AACA;;;AACe,SAAS,cAAc,EAAE,QAAQ,EAAqC;IACpF,qBACE,sQAAC;QAAI,IAAG;kBACN,cAAA,sQAAC;sBACC,cAAA,sQAAC;0BACC,cAAA,sQAAC;;sCACC,sQAAC;4BAAG,QAAO;sCACT,cAAA,sQAAC,8KAAiB;;;;;;;;;;sCAEpB,sQAAC;4BAAG,QAAO;4BAAM,OAAM;sCACpB;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMZ"}}]
+}
