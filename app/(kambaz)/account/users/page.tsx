@@ -17,24 +17,29 @@ type User = {
 };
 
 export default function Users() {
+ const [users, setUsers] = useState<User[]>([]);
+ const [role, setRole] = useState("");
+
+ const fetchUsers = async () => {
+   const foundUsers = await client.findAllUsers();
+   setUsers(foundUsers);
+ };
+
     const createUser = async () => {
+    const userIndex = users.length + 1;
     const user = await client.createUser({
       firstName: "New",
-      lastName: `User${users.length + 1}`,
-      username: `newuser${Date.now()}`,
+      lastName: `User${userIndex}`,
+      username: `newuser${userIndex}`,
       password: "password123",
-      email: `email${users.length + 1}@neu.edu`,
+      email: `email${userIndex}@neu.edu`,
       section: "S101",
       role: "STUDENT",
     });
     setUsers([...users, user]);
   };
 
- const [users, setUsers] = useState<User[]>([]);
- const [role, setRole] = useState("");
- const [name, setName] = useState("");
   const filterUsersByName = async (name: string) => {
-    setName(name);
     if (name) {
       const users = await client.findUsersByPartialName(name);
       setUsers(users);
@@ -75,6 +80,6 @@ export default function Users() {
         <option value="TA">Assistants</option> <option value="FACULTY">Faculty</option>
         <option value="ADMIN">Administrators</option>
       </select>
-     <PeopleTable users={users} />
+     <PeopleTable users={users} fetchUsers={fetchUsers} />
    </div>
 );}
