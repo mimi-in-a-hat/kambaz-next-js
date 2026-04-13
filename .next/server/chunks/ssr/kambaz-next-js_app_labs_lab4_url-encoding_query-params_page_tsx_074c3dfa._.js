@@ -1,0 +1,3 @@
+module.exports=[25917,a=>{"use strict";var b=a.i(51761),c=a.i(5966),d=a.i(81087);function e(){let a=(0,d.useSearchParams)(),c=a.get("a")||"0",e=a.get("b")||"0",f=parseFloat(c),g=parseFloat(e);return(0,b.jsxs)("div",{style:{padding:40},children:[(0,b.jsx)("h1",{children:"Calculator – Query Parameters"}),"Raw query values (already decoded by Next.js):",(0,b.jsxs)("p",{children:["a = ",(0,b.jsx)("code",{children:c})]}),(0,b.jsxs)("p",{children:["b = ",(0,b.jsx)("code",{children:e})]}),(0,b.jsxs)("h2",{style:{color:"green"},children:["Sum = ",f+g]})]})}function f(){return(0,b.jsx)(c.Suspense,{children:(0,b.jsx)(e,{})})}a.s(["default",()=>f,"dynamic",0,"force-dynamic"])}];
+
+//# sourceMappingURL=kambaz-next-js_app_labs_lab4_url-encoding_query-params_page_tsx_074c3dfa._.js.map

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/labs/layout,_N_T_/labs/lab4/layout,_N_T_/labs/lab4/url-encoding/layout,_N_T_/labs/lab4/url-encoding/query-params/layout,_N_T_/labs/lab4/url-encoding/query-params/page,_N_T_/labs/lab4/url-encoding/query-params"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/labs/lab4/url-encoding/query-params/__PAGE__",
+    "/labs/lab4/url-encoding/query-params",
+    "/labs/lab4/url-encoding",
+    "/labs/lab4",
+    "/labs",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/labs/layout,_N_T_/labs/lab2/layout,_N_T_/labs/lab2/tailwind/layout,_N_T_/labs/lab2/tailwind/page,_N_T_/labs/lab2/tailwind"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/labs/lab2/tailwind/__PAGE__",
+    "/labs/lab2/tailwind",
+    "/labs/lab2",
+    "/labs",
+    "/_index",
+    "/_head"
+  ]
+}

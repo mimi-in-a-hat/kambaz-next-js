@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},51911,a=>{a.n(a.i(6604))},74498,a=>{a.n(a.i(32138))},52879,a=>{a.n(a.i(53086))},16726,a=>{a.n(a.i(53775))},88734,a=>{a.n(a.i(27886))},10642,a=>{a.n(a.i(91630))},1523,a=>{"use strict";var b=a.i(9945);function c(){return(0,b.jsxs)("div",{id:"wd-kambaz",children:[(0,b.jsx)("h1",{children:"Labs"}),(0,b.jsx)("h2",{children:"Emily Zhu"}),(0,b.jsx)("h2",{children:"VTL-1-OL"}),(0,b.jsx)("h2",{children:"https://github.com/mimi-in-a-hat/kambaz-next-js"})]})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__66ede4db._.js.map

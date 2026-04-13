@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(kambaz)/layout,_N_T_/(kambaz)/account/layout,_N_T_/(kambaz)/account/profile/layout,_N_T_/(kambaz)/account/profile/page,_N_T_/account/profile"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGthbWJheik/account/profile/__PAGE__",
+    "/!KGthbWJheik/account/profile",
+    "/!KGthbWJheik/account",
+    "/!KGthbWJheik",
+    "/_index",
+    "/_head"
+  ]
+}

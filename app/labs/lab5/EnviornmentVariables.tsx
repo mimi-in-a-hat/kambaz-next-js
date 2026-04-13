@@ -1,4 +1,5 @@
-const HTTP_SERVER = process.env.NEXT_PUBLIC_HTTP_SERVER;
+import { HTTP_SERVER } from "@/app/http-server";
+
 export default function EnvironmentVariables() {
   return (
     <div id="wd-environment-variables">

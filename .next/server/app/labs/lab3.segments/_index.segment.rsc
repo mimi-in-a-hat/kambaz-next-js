@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[40743,["/_next/static/chunks/d074b2ee422a4b34.js","/_next/static/chunks/b4ace2e8b2812c90.js"],"default"]
+3:I[29551,["/_next/static/chunks/d074b2ee422a4b34.js","/_next/static/chunks/b4ace2e8b2812c90.js"],"default"]
+4:I[37207,["/_next/static/chunks/dbaf183babc9e9cf.js","/_next/static/chunks/ac11d656a1b60bcd.js"],""]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/d43ab978ac5b76ce.css","style"]
+0:{"buildId":"yCA-rmPlvTtYUg1eVvBQe","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d43ab978ac5b76ce.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","div",null,{"className":"p-4","children":[["$","h2",null,{"className":"text-danger","children":"Page Not Found"}],["$","p",null,{"children":"The requested page could not be found. Please check the page URL or return to the dashboard."}],["$","$L4",null,{"href":"/dashboard","className":"btn btn-primary mt-3","children":"Back to Dashboard"}]]}],[]]}]}]}]]}],"loading":null,"isPartial":false}

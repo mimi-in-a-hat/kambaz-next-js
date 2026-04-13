@@ -1,6 +1,5 @@
 "use client";
-const HTTP_SERVER = process.env.NEXT_PUBLIC_HTTP_SERVER;
-
+import { HTTP_SERVER } from "@/app/http-server";
 import { useState } from "react";
 import { FormControl } from "react-bootstrap";
 

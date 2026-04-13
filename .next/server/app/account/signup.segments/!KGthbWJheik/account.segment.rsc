@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[63998,["/_next/static/chunks/4a575e1cc55f8064.js","/_next/static/chunks/3bbee421b734325b.js","/_next/static/chunks/2d15a9c2d245799a.js","/_next/static/chunks/0c03edf2e9b56296.js","/_next/static/chunks/49183acb6d038199.js","/_next/static/chunks/36d63a0daa196f99.js","/_next/static/chunks/42a77fd5cb0cc276.js"],"default"]
+3:I[40743,["/_next/static/chunks/d074b2ee422a4b34.js","/_next/static/chunks/b4ace2e8b2812c90.js"],"default"]
+4:I[29551,["/_next/static/chunks/d074b2ee422a4b34.js","/_next/static/chunks/b4ace2e8b2812c90.js"],"default"]
+0:{"buildId":"yCA-rmPlvTtYUg1eVvBQe","rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/42a77fd5cb0cc276.js","async":true}]],["$","div",null,{"id":"wd-kambaz","children":["$","table",null,{"children":["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{"valign":"top","children":["$","$L2",null,{}]}],["$","td",null,{"valign":"top","width":"100%","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]]}]}]}]}]]}],"loading":null,"isPartial":false}

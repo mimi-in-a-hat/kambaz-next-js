@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../kambaz-next-js/app/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\r\nexport default function Kambaz() {\r\n  redirect(\"/account/signin\");\r\n  }"],"names":[],"mappings":"+VAAA,EAAA,CAAA,CAAA,MAAA,IAAA,EAAA,EAAA,CAAA,CAAA,OACe,SAAS,IACtB,CAAA,EAAA,EAAA,QAAA,AAAQ,EAAC,kBACT"}
