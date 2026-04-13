@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/%28kambaz%29/account/signin/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\nexport default function Signin() {\r\n return (\r\n   <div id=\"wd-signin-screen\">\r\n     <h3>Sign in</h3>\r\n     <input placeholder=\"username\" className=\"wd-username\" /> <br />\r\n     <input placeholder=\"password\" type=\"password\" className=\"wd-password\" /> <br />\r\n     <Link href=\"profile\" id=\"wd-signin-btn\"> Sign in </Link> <br />\r\n     <Link href=\"signup\" id=\"wd-signup-link\"> Sign up </Link>\r\n   </div>\r\n);}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACvB,qBACE,8OAAC;QAAI,IAAG;;0BACN,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBAAM,aAAY;gBAAW,WAAU;;;;;;YAAgB;0BAAC,8OAAC;;;;;0BAC1D,8OAAC;gBAAM,aAAY;gBAAW,MAAK;gBAAW,WAAU;;;;;;YAAgB;0BAAC,8OAAC;;;;;0BAC1E,8OAAC,0LAAI;gBAAC,MAAK;gBAAU,IAAG;0BAAgB;;;;;;YAAgB;0BAAC,8OAAC;;;;;0BAC1D,8OAAC,0LAAI;gBAAC,MAAK;gBAAS,IAAG;0BAAiB;;;;;;;;;;;;AAE3C"}}]
+}

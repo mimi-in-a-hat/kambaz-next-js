@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mimii/cs4550/kambaz-next-js/app/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\r\nexport default function Kambaz() {\r\n  redirect(\"/account/signin\");\r\n  }"],"names":[],"mappings":";;;;AAAA;AAAA;;AACe,SAAS;IACtB,IAAA,yNAAQ,EAAC;AACT"}}]
+}

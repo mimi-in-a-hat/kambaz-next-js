@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/labs/lab2/MediaQueriesDemo.css"],"sourcesContent":["/* Default styles */\r\n.wd-media-queries-demo {\r\n background-color: green;\r\n color: white;\r\n}\r\n\r\n\r\n/* Style between 750px and 1000px */\r\n@media (min-width: 750px) and (max-width: 1000px) {\r\n .wd-media-queries-demo {\r\n   background-color: yellow;\r\n   color: black;\r\n }\r\n}\r\n\r\n\r\n/* Style between 1000px and 1250px */\r\n@media (min-width: 1000px) and (max-width: 1250px) {\r\n .wd-media-queries-demo {\r\n   background-color: blue;\r\n   color: white;\r\n }\r\n}\r\n\r\n\r\n/* Style for widths greater than 1250px */\r\n@media (min-width: 1250px) {\r\n .wd-media-queries-demo {\r\n   background-color: red;\r\n   color: white;\r\n }\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;AAOA;EACC;;;;;;AAQD;EACC;;;;;;AAQD;EACC"}}]
+}
