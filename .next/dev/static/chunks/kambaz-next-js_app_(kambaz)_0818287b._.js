@@ -317,7 +317,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                lineNumber: 27,
+                lineNumber: 26,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Table$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__["Table"], {
@@ -330,53 +330,53 @@ function PeopleTable({ users = [], fetchUsers }) {
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                     children: "Login ID"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                     children: "Section"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                     children: "Role"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                     children: "Last Activity"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                     children: "Total Activity"
                                 }, void 0, false, {
                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 42,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                            lineNumber: 37,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                        lineNumber: 36,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -395,7 +395,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                                     className: "me-2 fs-1 text-secondary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                                    lineNumber: 58,
+                                                    lineNumber: 57,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -403,7 +403,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                                     children: user.firstName
                                                 }, void 0, false, {
                                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 58,
                                                     columnNumber: 17
                                                 }, this),
                                                 " ",
@@ -412,18 +412,18 @@ function PeopleTable({ users = [], fetchUsers }) {
                                                     children: user.lastName
                                                 }, void 0, false, {
                                                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 59,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 52,
                                             columnNumber: 11
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 50,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -431,7 +431,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                         children: user.loginId
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -439,7 +439,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                         children: user.section
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 63,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -447,7 +447,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                         children: user.role
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 64,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -455,7 +455,7 @@ function PeopleTable({ users = [], fetchUsers }) {
                                         children: user.lastActivity
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 65,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -463,30 +463,30 @@ function PeopleTable({ users = [], fetchUsers }) {
                                         children: user.totalActivity
                                     }, void 0, false, {
                                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 66,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, user._id, true, {
                                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                                lineNumber: 50,
+                                lineNumber: 49,
                                 columnNumber: 7
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-                lineNumber: 35,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/people/Table/page.tsx",
-        lineNumber: 25,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }
@@ -521,13 +521,20 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Users() {
     _s();
+    const [users, setUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [role, setRole] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const fetchUsers = async ()=>{
+        const foundUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$app$2f28$kambaz$292f$account$2f$client$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findAllUsers"]();
+        setUsers(foundUsers);
+    };
     const createUser = async ()=>{
+        const userIndex = users.length + 1;
         const user = await __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$app$2f28$kambaz$292f$account$2f$client$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createUser"]({
             firstName: "New",
-            lastName: `User${users.length + 1}`,
-            username: `newuser${Date.now()}`,
+            lastName: `User${userIndex}`,
+            username: `newuser${userIndex}`,
             password: "password123",
-            email: `email${users.length + 1}@neu.edu`,
+            email: `email${userIndex}@neu.edu`,
             section: "S101",
             role: "STUDENT"
         });
@@ -536,11 +543,7 @@ function Users() {
             user
         ]);
     };
-    const [users, setUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [role, setRole] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const filterUsersByName = async (name)=>{
-        setName(name);
         if (name) {
             const users = await __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$app$2f28$kambaz$292f$account$2f$client$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findUsersByPartialName"](name);
             setUsers(users);
@@ -578,21 +581,21 @@ function Users() {
                         className: "me-2"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 66,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     "Users"
                 ]
             }, void 0, true, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                lineNumber: 65,
+                lineNumber: 70,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 children: "Users"
             }, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                lineNumber: 69,
+                lineNumber: 74,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$FormControl$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -601,7 +604,7 @@ function Users() {
                 className: "float-start w-25 me-2 wd-filter-by-name"
             }, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                lineNumber: 70,
+                lineNumber: 75,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -614,7 +617,7 @@ function Users() {
                         children: "All Roles"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 74,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     "    ",
@@ -623,7 +626,7 @@ function Users() {
                         children: "Students"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 74,
+                        lineNumber: 79,
                         columnNumber: 48
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -631,7 +634,7 @@ function Users() {
                         children: "Assistants"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 75,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     " ",
@@ -640,7 +643,7 @@ function Users() {
                         children: "Faculty"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 75,
+                        lineNumber: 80,
                         columnNumber: 48
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -648,30 +651,31 @@ function Users() {
                         children: "Administrators"
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                        lineNumber: 76,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                lineNumber: 72,
+                lineNumber: 77,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$app$2f28$kambaz$292f$courses$2f5b$cid$5d2f$people$2f$Table$2f$page$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                users: users
+                users: users,
+                fetchUsers: fetchUsers
             }, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-                lineNumber: 78,
+                lineNumber: 83,
                 columnNumber: 6
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/kambaz-next-js/app/(kambaz)/account/users/page.tsx",
-        lineNumber: 64,
+        lineNumber: 69,
         columnNumber: 4
     }, this);
 }
-_s(Users, "PfnWxpSezxot7U5pai/Sp1FgPbM=");
+_s(Users, "CLlxJAG5TUGx9bfU9DNbLMuHrn0=");
 _c = Users;
 var _c;
 __turbopack_context__.k.register(_c, "Users");

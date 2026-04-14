@@ -4,6 +4,10 @@
   "/(kambaz)/account/signin/page": "app/(kambaz)/account/signin/page.js",
   "/(kambaz)/account/signup/page": "app/(kambaz)/account/signup/page.js",
   "/(kambaz)/account/users/page": "app/(kambaz)/account/users/page.js",
+  "/(kambaz)/courses/[cid]/home/page": "app/(kambaz)/courses/[cid]/home/page.js",
+  "/(kambaz)/courses/[cid]/people/page": "app/(kambaz)/courses/[cid]/people/page.js",
   "/(kambaz)/dashboard/page": "app/(kambaz)/dashboard/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/labs/page": "app/labs/page.js",
   "/page": "app/page.js"
 }

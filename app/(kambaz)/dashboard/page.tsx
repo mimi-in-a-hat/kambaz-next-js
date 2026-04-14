@@ -47,6 +47,28 @@ export default function Dashboard() {
   const { enrollments } = useSelector((state: RootState) => state.enrollmentsReducer);
   const [showAllCourses, setShowAllCourses] = useState(false);
 
+  const canCreateCourse = () => {
+    const user = currentUser as unknown as User | null;
+    return Boolean(user && ["FACULTY", "ADMIN"].includes(user.role));
+  };
+
+  const onAddCourse = async () => {
+    if (!canCreateCourse()) return;
+    const timestamp = Date.now().toString().slice(-4);
+    const newCourse = await client.createCourse({
+      name: `New Course ${timestamp}`,
+      number: `NEW-${timestamp}`,
+      startDate: "2026-01-10",
+      endDate: "2026-05-15",
+      description: "Newly created course.",
+      credits: 3,
+      department: "General",
+      author: (currentUser as unknown as User)._id,
+    });
+    dispatch(setCourses([...(courses as Course[]), newCourse]));
+    setShowAllCourses(true);
+  };
+
   const onDeleteCourse = async (courseId: string) => {
     await client.deleteCourse(courseId);
     dispatch(deleteCourse(courseId));
@@ -107,6 +129,21 @@ export default function Dashboard() {
     }
   };
 
+  const canManageCourse = (course: Course) => {
+    const user = currentUser as unknown as User | null;
+    if (!user) return false;
+    if (user.role === "FACULTY" || user.role === "ADMIN") return true;
+    return Boolean(course.author) && course.author === user._id;
+  };
+
+  const canEnrollInCourses = () => {
+    const user = currentUser as unknown as User | null;
+    return Boolean(
+      user &&
+      ["STUDENT", "FACULTY", "ADMIN"].includes(user.role)
+    );
+  };
+
   
   return (
     <div id="wd-dashboard">
@@ -117,12 +154,24 @@ export default function Dashboard() {
         <h2 id="wd-dashboard-published">
           Published Courses ({displayedCourses.length})
         </h2>
-        <Button 
-          variant="primary"
-          onClick={() => setShowAllCourses(!showAllCourses)}
-        >
-          {showAllCourses ? "Show Enrolled Courses" : "Enrollments"}
-        </Button>
+        <div className="d-flex gap-2">
+          {canCreateCourse() && (
+            <Button
+              variant="success"
+              onClick={() => {
+                void onAddCourse();
+              }}
+            >
+              Add Course
+            </Button>
+          )}
+          <Button 
+            variant="primary"
+            onClick={() => setShowAllCourses(!showAllCourses)}
+          >
+            {showAllCourses ? "Show Enrolled Courses" : "Enrollments"}
+          </Button>
+        </div>
       </div>
       <hr />
 
@@ -164,28 +213,30 @@ export default function Dashboard() {
                 {showAllCourses && (
                   <Card.Body>
                     <div className="d-grid gap-2">
-                      {isEnrolled(course._id) ? (
-                        <Button 
-                          variant="danger" 
-                          onClick={(e) => {
-                            e.preventDefault();
-                            void handleUnenroll(course._id);
-                          }}
-                        >
-                          Unenroll
-                        </Button>
-                      ) : (
-                        <Button 
-                          variant="success" 
-                          onClick={(e) => {
-                            e.preventDefault();
-                            void handleEnroll(course._id);
-                          }}
-                        >
-                          Enroll
-                        </Button>
+                      {canEnrollInCourses() && (
+                        isEnrolled(course._id) ? (
+                          <Button 
+                            variant="danger" 
+                            onClick={(e) => {
+                              e.preventDefault();
+                              void handleUnenroll(course._id);
+                            }}
+                          >
+                            Unenroll
+                          </Button>
+                        ) : (
+                          <Button 
+                            variant="success" 
+                            onClick={(e) => {
+                              e.preventDefault();
+                              void handleEnroll(course._id);
+                            }}
+                          >
+                            Enroll
+                          </Button>
+                        )
                       )}
-                      {course.author === (currentUser as unknown as User)?._id && (
+                      {canManageCourse(course) && (
                         <Button
                           variant="warning"
                           onClick={(e) => {
@@ -196,7 +247,7 @@ export default function Dashboard() {
                           Update
                         </Button>
                       )}
-                      {course.author === (currentUser as unknown as User)?._id && (
+                      {canManageCourse(course) && (
                         <Button 
                           variant="danger" 
                           onClick={(e) => {

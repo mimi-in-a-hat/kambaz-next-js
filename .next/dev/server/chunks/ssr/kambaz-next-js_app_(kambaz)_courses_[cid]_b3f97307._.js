@@ -110,23 +110,24 @@ function CoursesLayout({ children }) {
     const [showCourseNavigation, setShowCourseNavigation] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     // Check if user is enrolled in this course
     const isEnrolled = enrollments.some((enrollment)=>enrollment.user === currentUser?._id && enrollment.course === cid);
+    const isStudent = currentUser?.role === "STUDENT";
+    const shouldRedirectToDashboard = Boolean(currentUser && isStudent && !isEnrolled);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (currentUser && !isEnrolled) {
+        if (shouldRedirectToDashboard) {
             router.push("/dashboard");
         }
     }, [
-        currentUser,
-        isEnrolled,
+        shouldRedirectToDashboard,
         router
     ]);
     // If not enrolled, show loading or redirect message
-    if (currentUser && !isEnrolled) {
+    if (shouldRedirectToDashboard) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "p-3",
             children: "Redirecting to dashboard..."
         }, void 0, false, {
             fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-            lineNumber: 58,
+            lineNumber: 62,
             columnNumber: 11
         }, this);
     }
@@ -139,12 +140,12 @@ function CoursesLayout({ children }) {
                     course: course
                 }, void 0, false, {
                     fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                    lineNumber: 64,
+                    lineNumber: 68,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                lineNumber: 63,
+                lineNumber: 67,
                 columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -158,7 +159,7 @@ function CoursesLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                        lineNumber: 67,
+                        lineNumber: 71,
                         columnNumber: 7
                     }, this),
                     course?.name,
@@ -168,13 +169,13 @@ function CoursesLayout({ children }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                lineNumber: 66,
+                lineNumber: 70,
                 columnNumber: 3
             }, this),
             " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {}, void 0, false, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                lineNumber: 73,
+                lineNumber: 77,
                 columnNumber: 26
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,12 +184,12 @@ function CoursesLayout({ children }) {
                     showCourseNavigation && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$app$2f28$kambaz$292f$courses$2f5b$cid$5d2f$Navigation$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                            lineNumber: 77,
+                            lineNumber: 81,
                             columnNumber: 7
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                        lineNumber: 76,
+                        lineNumber: 80,
                         columnNumber: 30
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$kambaz$2d$next$2d$js$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -196,19 +197,19 @@ function CoursesLayout({ children }) {
                         children: children
                     }, void 0, false, {
                         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                        lineNumber: 79,
+                        lineNumber: 83,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-                lineNumber: 75,
+                lineNumber: 79,
                 columnNumber: 3
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/kambaz-next-js/app/(kambaz)/courses/[cid]/layout.tsx",
-        lineNumber: 62,
+        lineNumber: 66,
         columnNumber: 4
     }, this);
 }

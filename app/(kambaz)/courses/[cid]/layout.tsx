@@ -29,6 +29,7 @@ type Enrollment = {
 type User = {
   _id: string;
   username: string;
+  role: string;
 };
 
 export default function CoursesLayout(
@@ -47,14 +48,17 @@ export default function CoursesLayout(
      enrollment.user === (currentUser as unknown as User)?._id && enrollment.course === cid
  );
 
+ const isStudent = (currentUser as unknown as User | null)?.role === "STUDENT";
+ const shouldRedirectToDashboard = Boolean(currentUser && isStudent && !isEnrolled);
+
  useEffect(() => {
-   if (currentUser && !isEnrolled) {
+   if (shouldRedirectToDashboard) {
      router.push("/dashboard");
    }
- }, [currentUser, isEnrolled, router]);
+ }, [shouldRedirectToDashboard, router]);
 
  // If not enrolled, show loading or redirect message
- if (currentUser && !isEnrolled) {
+ if (shouldRedirectToDashboard) {
    return <div className="p-3">Redirecting to dashboard...</div>;
  }
  
