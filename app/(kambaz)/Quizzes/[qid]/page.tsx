@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { notFound, useParams, useRouter } from "next/navigation";
 import { Button, Table } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { RootState } from "../../../../store";
+import { RootState } from "../../store";
 import * as client from "../client";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
