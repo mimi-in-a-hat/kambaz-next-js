@@ -1,0 +1,3 @@
+{
+  "/(kambaz)/courses/[cid]/quizzes/[qid]/questions/[questionId]/page": "app/(kambaz)/courses/[cid]/quizzes/[qid]/questions/[questionId]/page.js"
+}
